@@ -1,0 +1,30 @@
+.post_info {
+    margin: 10px;
+    width: 100vm;
+    display: grid;
+    padding: 5px;
+    justify-content: space-evenly;
+    background-color: lavender;
+    color: #545454;
+    border: solid #5B6DCD 3px;
+    border-radius: 20px;
+}
+
+.comments_info {
+    width: 100vm;
+    display: grid;
+    grid-template-columns:repeat(4, 25%);
+    padding: 10px 15px;
+    justify-content: space-between;
+
+}
+
+.comment {
+    margin: 5px;
+    display: block;
+    background-color: lavender;
+    color: #545454;
+    border: solid #5B6DCD 3px;
+    border-radius: 20px;
+    padding: 5px;
+}

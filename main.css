@@ -1,0 +1,37 @@
+.target {
+    margin: 0 auto;
+    width: 1320px;
+    display: grid;
+    grid-template-columns:repeat(2, 500px);
+    grid-gap: 10px;
+    padding: 10px 15px;
+    justify-content: space-evenly;
+    background-color: lavender;
+}
+
+.user {
+    width: 500px;
+    height: 100px;
+    display: block;
+    box-sizing: border-box;
+    border: solid #5B6DCD 3px;
+    border-radius: 20px;
+    background-color: lavender;
+    margin: 10px;
+    text-align: center;
+    color: #545454;
+}
+
+.user_details {
+    background-color: #5B6DCD;
+    border: solid #545454 3px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: lavender;
+    text-decoration: none;
+}
+
+.user_details:hover {
+    background-color: lavender;
+    color: #5B6DCD;
+}
